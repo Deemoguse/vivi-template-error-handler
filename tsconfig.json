@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"lib": ["ESNext", "DOM"],
+		"module": "ES2020",
+		"moduleResolution": "Node",
+		"strictFunctionTypes": true,
+		"target": "ES3",
+	},
+	"include": ["src", "test"],
+	"exclude": ["node_modules", "**/node_modules/*"]
+}
