@@ -1,4 +1,3 @@
-import { ParserError } from 'parse5';
 import defaultListChars from './defaultListChars';
 import HighlightSyntax from './highlightSyntax';
 import ColorizedString from './colorizedString';
@@ -9,7 +8,8 @@ import defaultHighlightTheme from './defaultHighlightTheme';
 import type { ColorizedDesc } from '../types/colorizedDesc';
 import type { ListChars } from '../types/listChars';
 import type { HighlightTheme } from '../types/highlightSyntaxTheme';
-import { DrawErrorTableOptions } from '../types/drawErrorTableOptions';
+import type { DrawErrorTableOptions } from '../types/drawErrorTableOptions';
+import type { ParserError } from '../types/parserError';
 
 export default class DrawErrorTable
 {

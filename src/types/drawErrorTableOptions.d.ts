@@ -1,6 +1,6 @@
-import { ParserError } from 'parse5';
 import { HighlightTheme } from './highlightSyntaxTheme';
 import { ListChars } from './listChars';
+import { ParserError } from './parserError';
 
 export interface DrawErrorTableOptions {
 	template: string,

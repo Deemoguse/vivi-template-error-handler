@@ -1,6 +1,6 @@
 import listChars from './defaultListChars';
-import type { PosChars } from '../types/listChars';
 import ColorizedString from './colorizedString';
+import type { PosChars } from '../types/listChars';
 
 export default class DrawPosLabel
 {

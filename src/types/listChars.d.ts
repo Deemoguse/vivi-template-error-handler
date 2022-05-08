@@ -14,10 +14,6 @@ export type ListCharsItems =
 	| 'lineNumberVoidBorder'
 	;
 
-export type ListChars =
-	| ListCharsConstructor<ListCharsItems>
-	;
-
 export type ArrowChars =
 	| Pick<ListChars, 'arrowLine' | 'arrowPointer'>
 	;
@@ -28,4 +24,8 @@ export type PosChars =
 
 export type ErrorTable =
 	| Pick<ListChars, 'lineNumberBorder' | 'lineNumberVoid' | 'lineNumberVoidBorder'>
+	;
+
+export type ListChars =
+	| ListCharsConstructor<ListCharsItems>
 	;
