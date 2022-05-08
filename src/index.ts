@@ -1,11 +1,11 @@
 import DrawErrorTable from './utils/drawErrorTable';
+import type { ArrowChars, ErrorTable, ListChars, ListCharsConstructor, ListCharsItems, PosChars } from './types/listChars';
+import type { ColorizedDesc } from './types/colorizedDesc';
+import type { DrawErrorTableOptions } from './types/drawErrorTableOptions';
 import type { ErrorHandlerOptions } from './types/errorHandlerOptions';
-import type * as ColorDesc from './types/colorizedDesc';
-import type * as DrawErrorTableOptions from './types/drawErrorTableOptions';
-import type * as HighlightSyntaxTheme from './types/highlightSyntaxTheme';
-import type * as LexerToken from './types/lexerToken';
-import type * as ListChars from './types/listChars';
-import type * as ParserError from './types/parserError';
+import type { HighlightTheme, ThemeColors } from './types/highlightSyntaxTheme';
+import type { LexerToken, LexerType } from './types/lexerToken';
+import type { ParserError } from './types/parserError';
 
 export default function viviTemplateErrorHandler (opts: ErrorHandlerOptions): string {
 	opts.template = opts.template.trim();
@@ -13,11 +13,18 @@ export default function viviTemplateErrorHandler (opts: ErrorHandlerOptions): st
 }
 
 export {
-	ErrorHandlerOptions,
-	ColorDesc,
+	ArrowChars,
+	ColorizedDesc,
 	DrawErrorTableOptions,
-	HighlightSyntaxTheme,
+	ErrorHandlerOptions,
+	ErrorTable,
+	HighlightTheme,
 	LexerToken,
+	LexerType,
 	ListChars,
-	ParserError
+	ListCharsConstructor,
+	ListCharsItems,
+	ParserError,
+	PosChars,
+	ThemeColors,
 };
