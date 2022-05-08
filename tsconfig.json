@@ -9,6 +9,6 @@
 		"strictFunctionTypes": true,
 		"target": "ES3",
 	},
-	"include": ["src", "test"],
+	"include": ["src"],
 	"exclude": ["node_modules", "**/node_modules/*"]
 }
