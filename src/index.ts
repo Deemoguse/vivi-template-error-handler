@@ -1,5 +1,5 @@
 import DrawErrorTable from './utils/drawErrorTable';
-import type { ArrowChars, ErrorTable, ListChars, ListCharsConstructor, ListCharsItems, PosChars } from './types/listChars';
+import type { ArrowChars, ErrorTable, ListChars, ListCharsItems, PosChars } from './types/listChars';
 import type { ColorizedDesc } from './types/colorizedDesc';
 import type { DrawErrorTableOptions } from './types/drawErrorTableOptions';
 import type { ErrorHandlerOptions } from './types/errorHandlerOptions';
@@ -22,7 +22,6 @@ export {
 	LexerToken,
 	LexerType,
 	ListChars,
-	ListCharsConstructor,
 	ListCharsItems,
 	ParserError,
 	PosChars,
