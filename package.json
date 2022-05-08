@@ -1,6 +1,6 @@
 {
 	"name": "vivi-template-error-handler",
-	"version": "1.0.0r",
+	"version": "1.0.1r",
 	"description": "HTML syntax error handler for vivi-template-tree-builder",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
