@@ -16,6 +16,7 @@
 		"vivi-project",
 		"vivi-template"
 	],
+	"repository": "Deemoguse/vivi-template-error-handler",
 	"author": "Ruslan Radionov <cugune.tyan@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
